@@ -526,9 +526,9 @@
         Me.Label15.AutoSize = True
         Me.Label15.Location = New System.Drawing.Point(200, 270)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(50, 17)
+        Me.Label15.Size = New System.Drawing.Size(55, 17)
         Me.Label15.TabIndex = 16
-        Me.Label15.Text = "Estado"
+        Me.Label15.Text = "Estado:"
         '
         'Label14
         '
@@ -589,9 +589,9 @@
         Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(6, 120)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(57, 17)
+        Me.Label8.Size = New System.Drawing.Size(62, 17)
         Me.Label8.TabIndex = 9
-        Me.Label8.Text = "Nombre"
+        Me.Label8.Text = "Nombre:"
         '
         'Label7
         '
