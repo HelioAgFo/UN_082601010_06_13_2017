@@ -571,9 +571,9 @@
         Me.Label10.AutoSize = True
         Me.Label10.Location = New System.Drawing.Point(100, 170)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(35, 17)
+        Me.Label10.Size = New System.Drawing.Size(40, 17)
         Me.Label10.TabIndex = 11
-        Me.Label10.Text = "Calle"
+        Me.Label10.Text = "Calle:"
         '
         'Label9
         '
