@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="UN_082601010.exe" version="1.0.0.3" publicKeyToken="68a028ccc32c33eb" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="UN_082601010" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="UN_082601010.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Interop.SAF" version="8.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Dynamics.Framework.UI.Navigation" version="1.4.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Dynamics.Framework.UI.WinForms.Controls" version="1.4.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Dynamics.SL.Controls" version="9.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="solomon.kernel" version="9.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UN_082601010.exe" size="156600">
+      <assemblyIdentity name="UN_082601010" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rFh/PJlMGn+PPSgZzaBakajN5i4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=HELIO-PC\helioefrain" issuerKeyHash="83a1010a05a125420cf131868d173b60892e44bb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>9yp/MEnm3ftXY3uOXU9ikN8q5to=</DigestValue></Reference></SignedInfo><SignatureValue>bn2C6ZHye3RC5ZqltrMI6mkYe2OwUFr1FqlzCAwp0uoXCYzlXLmAmvHRXkuBhJnod5mnTOkt+76+5N7dvyqJ37PUsyrhm0X7lm+zed7mv1FZIqWzd9ClpVcK+U7gO5CYQKVXA9GCSZJYNSXGGj4TAxFKPmgqeOPgK0LPh5sr0qg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tTa4/Q3VUcEn92wvk/CQmQWTAhlGyqG8SZePcTpF8LDFX6nS71N/JgvaToPEFkCVMpitD7xkfWqTI3HxUGvb11v+VLPyxb5sj2XEWPHqPKi5stGc5yFJ2BBF46mRHw/JKRQvoTTCVvLchJLCBKOYMNzE//qPPUOfcQm6ASrXidk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dae62adf90624f5d8e7b6357fbdde649307f2af7" Description="" Url=""><as:assemblyIdentity name="UN_082601010.exe" version="1.0.0.3" publicKeyToken="68a028ccc32c33eb" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HELIO-PC\helioefrain</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Hlbj2Kl3sMYRuPwpoolUo0coMRQ=</DigestValue></Reference></SignedInfo><SignatureValue>gTZjJx8JaxXawff52BoQcICaZqXxMfTwWuCQPufaXv9Bxd1Zr4H4UnikClKof5B/eVp3vgpwkvu+f4qm7zm3kF5WNqctIBvtKut98H1+Me2nnTWIHBL+3tjvOtBCbCQbaj9JuXvCEqHVU4mBWid7E54d5aIsHSWwxfEskWCU4eo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tTa4/Q3VUcEn92wvk/CQmQWTAhlGyqG8SZePcTpF8LDFX6nS71N/JgvaToPEFkCVMpitD7xkfWqTI3HxUGvb11v+VLPyxb5sj2XEWPHqPKi5stGc5yFJ2BBF46mRHw/JKRQvoTTCVvLchJLCBKOYMNzE//qPPUOfcQm6ASrXidk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQeixxZQNL85VAmXaZ2rCEjzANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigASABFAEwASQBPAC0AUABDAFwAaABlAGwAaQBvAGUAZgByAGEAaQBuMB4XDTE3MDMxNjE5NDIyNloXDTE4MDMxNzAxNDIyNlowMzExMC8GA1UEAx4oAEgARQBMAEkATwAtAFAAQwBcAGgAZQBsAGkAbwBlAGYAcgBhAGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtTa4/Q3VUcEn92wvk/CQmQWTAhlGyqG8SZePcTpF8LDFX6nS71N/JgvaToPEFkCVMpitD7xkfWqTI3HxUGvb11v+VLPyxb5sj2XEWPHqPKi5stGc5yFJ2BBF46mRHw/JKRQvoTTCVvLchJLCBKOYMNzE//qPPUOfcQm6ASrXidkCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBHvq8M9YeFJpYLWBDgVEkmPXPkLW9N0ftQFck5U0ghO1ynfPPL6tYp1qryzScem0u5SVM44isgwq0VeCuNEVMknPnwLYdxdQ1RKG0pANhRHrezLdkOI7RZ5V5oXOb3b9WDnLMNRXtvrthoPuCw8bVdHmBQDTjAWQmdI/0xv+WwFA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
